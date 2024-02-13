@@ -15,10 +15,10 @@ class Main {
 
     // should display the value 80
     result = var1 * var2 / var3 * var4;
-    System.out.println("result = " + result);
+    System.out.println("result = " + (int)result);
 
     // should display the value 0.2
-    result = var1 * var2 / var3 * var4;
+    result = (var1 * var2) / (var3 * var4);
     System.out.println("result = " + result);
     
     // should display the value 1.0
@@ -26,7 +26,7 @@ class Main {
     System.out.println("result = " + result);
 
     // should display the value 25.0
-    result = var1 / var2 / var3;
+    result = var1 / (var2 / var3);
     System.out.println("result = " + result);
     
   }
